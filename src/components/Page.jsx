@@ -25,7 +25,9 @@ function Page({ itemsPpg, onPageChange, totNOfPages }) {
     return (
         <>
 
-            <Pagination size='md' style={{ justifyContent: 'center' }}>
+            <Pagination size='md' style={{
+                justifyContent: 'center'
+            }}>
                 <Pagination.Prev onClick={prevBtn} />
                 {
                     new Array(totNOfPages).fill("").map((item, index) => {

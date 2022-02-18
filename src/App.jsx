@@ -47,16 +47,16 @@ function App() {
                   if (txt === '') {
                     return item
                   }
-                  if (item.first_name.toLowerCase().includes(txt.toLowerCase())) {
+                  else if (item.first_name.toLowerCase().includes(txt.toLowerCase())) {
                     return item
                   }
                 })
-                .map((item, key) => {
+                .map((item) => {
                   return (
-                    <tr>
-                      <td>
+                    <tr key={item.id}>
+                      <td >
                         {
-                          key = item.id
+                          item.id
                         }
                       </td>
                       <td>
