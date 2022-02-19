@@ -4,3 +4,7 @@ body{
     background-repeat: no-repeat;
     min-height: 100vh;
 }
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+.new-font{
+    font-family: 'DotGothic16';
+}

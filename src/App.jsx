@@ -18,7 +18,7 @@ function App() {
   }
   return (
     <div className="App">
-      <Navbar className='mb-2' >
+      <Navbar className='mb-2 new-font' >
         <Container>
           <Navbar.Brand href='http://piyush--portfolio.herokuapp.com/' style={{ color: 'whitesmoke' }}>
             Piyush
@@ -27,7 +27,7 @@ function App() {
         </Container>
       </Navbar>
       <Container>
-        <p style={{ color: 'whitesmoke' }}>This app includes a table that retrieves data from the API and maps it to the table, as well as search capability with a pagination mechanism. <br />Click on the upper left corner to see more of my creations.</p>
+        <p className='new-font' style={{ color: 'whitesmoke' }}>This app includes a table that retrieves data from a JSON and maps it to the table, as well as search capability with a pagination mechanism. <br />Click on the upper left corner to see more of my creations.</p>
         <InputGroup className='mb-4' onChange={(e) => (setTxt(e.target.value))} value={txt}>
           <InputGroup.Text>First Name</InputGroup.Text>
           <FormControl as="textarea" aria-label="username" />
