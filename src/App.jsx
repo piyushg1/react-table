@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <Navbar className='mb-2 new-font' >
         <Container>
-          <Navbar.Brand href='http://piyush--portfolio.herokuapp.com/' style={{ color: 'whitesmoke' }}>
+          <Navbar.Brand href='https://piyushg1.github.io/p/' style={{ color: 'whitesmoke' }}>
             Piyush
           </Navbar.Brand>
           <h1 style={{ color: 'whitesmoke', marginInline: 'auto' }}>React Table</h1>
