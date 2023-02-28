@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-table/static/css/main.62c22cbc.css",
+    "main.js": "/react-table/static/js/main.cdd8ed59.js",
+    "static/js/787.0c3f432a.chunk.js": "/react-table/static/js/787.0c3f432a.chunk.js",
+    "static/media/blur.png": "/react-table/static/media/blur.711aba276a156603ca54.png",
+    "index.html": "/react-table/index.html",
+    "main.62c22cbc.css.map": "/react-table/static/css/main.62c22cbc.css.map",
+    "main.cdd8ed59.js.map": "/react-table/static/js/main.cdd8ed59.js.map",
+    "787.0c3f432a.chunk.js.map": "/react-table/static/js/787.0c3f432a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62c22cbc.css",
+    "static/js/main.cdd8ed59.js"
+  ]
+}
